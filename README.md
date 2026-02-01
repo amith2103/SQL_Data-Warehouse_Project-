@@ -101,3 +101,52 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
+```
+
+---
+
+## ✅ Data Quality & Transformations
+
+- Deduplicated records using `ROW_NUMBER()` to retain latest entries.
+- Standardized text fields using `TRIM`, `UPPER`, and string replacements.
+- Validated sales calculations (`sales = quantity × price`).
+- Handled missing, null, and invalid values based on business rules.
+- Converted invalid future birth dates to `NULL`.
+- Enforced consistent keys and referential joins between fact and dimension tables.
+---
+## 📊 Analytics & Insights
+
+The Gold layer enables analytical insights such as:
+- Customer behavior analysis
+- Product performance trends
+- Sales revenue and quantity trends
+- Country-wise and category-wise sales analysis
+---
+## 🧠 What This Project Demonstrates
+
+- End-to-end SQL Data Warehouse development
+- ETL design and implementation
+- Data modeling using star schema
+- Data quality validation
+- Analytical SQL querying
+- Industry-standard Medallion Architecture
+---
+
+## 👤 About Me
+
+Hi, I’m **Amith Chandra Thota** 👋  
+
+I’m a data professional passionate about building scalable data solutions using SQL, Python, and modern data warehousing techniques.  
+This project showcases my hands-on experience designing and implementing an end-to-end SQL data warehouse using industry best practices.
+
+### Skills & Interests
+- SQL & Data Warehousing
+- Data Engineering & ETL Pipelines
+- Data Modeling (Star Schema)
+- Analytics & Reporting
+- Continuous learning in cloud and AI-driven data solutions
+
+📫 **Contact**
+- Email: amithchandrat98@gmail.com
+- GitHub: https://github.com/amith2103
+
